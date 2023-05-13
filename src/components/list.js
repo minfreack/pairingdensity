@@ -41,7 +41,7 @@ function List() {
                       )) : <h1>Not results</h1>
               }
           </div>
-          <div className="flex gap-7 justify-center">
+          <div className="flex gap-7 justify-center mt-6">
               {
                   page > 0 && (
                       <p className="font-semibold cursor-pointer" onClick={() => dispatch(setPage(page - 1))}>Atrás</p>
